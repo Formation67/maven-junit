@@ -5,6 +5,10 @@
 	<groupId>com.formation</groupId>
 	<artifactId>maven-junit</artifactId>
 	<version>0.0.1</version>
+	
+	 <properties>
+               <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+         </properties>
 
 	<dependencies>
 		<dependency>
