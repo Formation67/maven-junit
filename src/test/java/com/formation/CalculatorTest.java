@@ -14,6 +14,7 @@ public class CalculatorTest {
 		calculator.clear();
 	}
 	
+	
 	@Test
 	public void addTest() {
 		calculator.enter(5);
@@ -26,7 +27,7 @@ public class CalculatorTest {
 		calculator.enter(10);
 		calculator.substract(5);
 		assertEquals(calculator.getScreenResult(), 5);
-	}
+	} 
 	
 	@Test
 	public void multiplyTest() {
